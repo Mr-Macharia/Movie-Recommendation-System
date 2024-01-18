@@ -4,16 +4,33 @@
 
 ![recommendations readme](https://github.com/Perception-ui/phase_4/assets/139771882/39015c1f-e986-43fc-8570-95464634040b)
 
-This project involved developing a movie recommendation system using collaborative filtering techniques on the MovieLens dataset. The goal was to provide users with personalized top 5 movie suggestions based on their preferences and historical ratings.
+This project entails the development of a movie recommendation system utilizing collaborative filtering techniques on the MovieLens dataset. The primary objective is to provide users with personalized top 5 movie suggestions based on their preferences and historical ratings.
 
-The document covers the full data science life cycle from business understanding, data cleaning, exploratory analysis, modeling, evaluation, to final model deployment.
+The document comprehensively covers the entire data science life cycle, including business understanding, data cleaning, exploratory analysis, modeling, evaluation, and final model deployment.
 
 ## Business Understanding
-The key business objective was to elevate user engagement and satisfaction on a streaming platform by offering tailored movie recommendations. This could lead to extended time spent on the platform and increased revenue.
 
-The success metrics focused on measuring the accuracy, relevance, and user satisfaction provided by the recommendation system. Metrics like RMSE, precision, recall were crucial.
+The central business objective is to enhance user engagement and satisfaction on a streaming platform by delivering tailored movie recommendations. The ultimate goal is to prolong user interaction with the platform, potentially leading to increased revenue.
 
-Research questions revolved around understanding which movie features have the highest correlation with user ratings, how rating frequencies influence accuracy, and evaluating the collaborative filtering performance.
+## Problem Statement
+
+To achieve our business objective, the project aims to actively involve users by delivering personalized movie recommendations. This involves employing machine learning algorithms, specifically collaborative filtering and content-based filtering, to analyze user ratings and preferences.
+
+## Metric of Success
+
+The success of the model will be measured by the Root Mean Squared Error (RMSE).
+
+## Objectives
+### Primary Objective:
+
+Develop and implement a movie recommendation system using collaborative filtering techniques to provide personalized top 5 movie recommendations for users.
+
+## Specific Objectives:
+
+  1.Understand movie ratings distribution and user preferences.
+  2.Analyze data to identify highest-rated movies.
+  3.Examine monthly user engagement.
+  4.Analyze and identify highest-rated genres.
 
 ## Data Understanding
 
@@ -25,9 +42,7 @@ The movies file contains movie titles, genres. The ratings file has details of u
 
 ## Data Preparation
 
-Data preparation involved merging the key movies and ratings data files into a single DataFrame using pandas.
-
-Extensive data cleaning was performed - missing value treatment, duplicate removal, feature engineering (extracting hour and month from timestamps).
+Data preparation involved merging key movies and ratings data files into a single DataFrame using pandas. Extensive data cleaning was performed, including missing value treatment, duplicate removal, and feature engineering.
 
 ## Exploratory Data Analysis
 Both univariate and bivariate analyses were performed:
@@ -42,14 +57,31 @@ Identified most frequently rated and highest/lowest rated movies
 
 ## Model Building
 
-Leveraged Surprise library to develop a collaborative filtering recommendation system
+The Surprise library was leveraged to develop a collaborative filtering recommendation system. Multiple techniques were compared, and hyperparameters were tuned using grid search. The final model, a Matrix factorization SVD algorithm with 50 latent factors and 0.05 regularization, achieved the lowest RMSE of 0.8686 on the test set.
 
-Compared multiple techniques - KNNBasic, KNNBaseline, KNNWithMeans, SVD
+## Model Usage
 
-Tuned hyperparameters using grid search to improve RMSE
+The recommendation system adapts to evolving user preferences and displays the top 5 movie recommendations based on the SVD model.
 
-Final model: Matrix factorization SVD algorithm with 50 latent factors and 0.05 regularization that obtained the lowest RMSE of 0.8691 on the test set.
-Model Usage
+## Conclusions
 
-Generated movie recommendations for users by predicting their rating for all movies using the trained SVD model.
-Returned top 5 movies with the highest predicted ratings.
+The SVD model was chosen for its superior performance in building the recommendation system. User ratings were effectively incorporated to personalize suggestions, and the system successfully adapts to changing user preferences.
+
+## Recommendations
+
+Web application: Develop a web application to enhance user interaction and increase accessibility to the collaborative filtering recommendation system.
+
+Explore Deep Learning Models: Consider exploring deep learning-based recommendation models, such as neural collaborative filtering (NCF) or recurrent neural networks (RNNs), to capture complex patterns and dependencies in user behavior.
+
+## Next Steps
+
+Implement a real-time recommendation system to provide users with up-to-date suggestions. Continuously update the model based on new ratings and interactions, ensuring the provision of current and pertinent movie suggestions. This approach is poised to significantly elevate user engagement on the platform.
+
+## Collaborators
+
+[Lewis Otsieka](https://github.com/Perception-ui)
+[Ejidiah Kanyi](https://github.com/EjiKanyi)
+[Gichogu Macharia](https://github.com/Mr-Macharia)
+[Laureen Chepkoech](https://github.com/Lawrync)
+[Yusra Mohamed](https://github.com/Yusra12)
+[Emmanuel Rono](https://github.com/marttech26)
