@@ -1,6 +1,9 @@
 # Movie Recommendation System Using Collaborative Filtering
 
 ## Overview
+
+![recommendations readme](https://github.com/Perception-ui/phase_4/assets/139771882/39015c1f-e986-43fc-8570-95464634040b)
+
 This project involved developing a movie recommendation system using collaborative filtering techniques on the MovieLens dataset. The goal was to provide users with personalized top 5 movie suggestions based on their preferences and historical ratings.
 
 The document covers the full data science life cycle from business understanding, data cleaning, exploratory analysis, modeling, evaluation, to final model deployment.
