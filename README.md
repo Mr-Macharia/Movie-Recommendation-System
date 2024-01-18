@@ -79,9 +79,9 @@ Implement a real-time recommendation system to provide users with up-to-date sug
 
 ## Collaborators
 
-[Lewis Otsieka](https://github.com/Perception-ui)
-[Ejidiah Kanyi](https://github.com/EjiKanyi)
-[Gichogu Macharia](https://github.com/Mr-Macharia)
-[Laureen Chepkoech](https://github.com/Lawrync)
-[Yusra Mohamed](https://github.com/Yusra12)
-[Emmanuel Rono](https://github.com/marttech26)
+[Lewis Otsieka](https://github.com/Perception-ui)<br>
+[Ejidiah Kanyi](https://github.com/EjiKanyi)<br>
+[Gichogu Macharia](https://github.com/Mr-Macharia)<br>
+[Laureen Chepkoech](https://github.com/Lawrync)<br>
+[Yusra Mohamed](https://github.com/Yusra12)<br>
+[Emmanuel Rono](https://github.com/marttech26)<br>
