@@ -25,12 +25,12 @@ The success of the model will be measured by the Root Mean Squared Error (RMSE).
 
 Develop and implement a movie recommendation system using collaborative filtering techniques to provide personalized top 5 movie recommendations for users.
 
-## Specific Objectives:
+### Specific Objectives:
 
-  1.Understand movie ratings distribution and user preferences.
-  2.Analyze data to identify highest-rated movies.
-  3.Examine monthly user engagement.
-  4.Analyze and identify highest-rated genres.
+  1.Understand movie ratings distribution and user preferences.<br>
+  2.Analyze data to identify highest-rated movies.<br>
+  3.Examine monthly user engagement.<br>
+  4.Analyze and identify highest-rated genres.<br>
 
 ## Data Understanding
 
@@ -65,13 +65,14 @@ The recommendation system adapts to evolving user preferences and displays the t
 
 ## Conclusions
 
-The SVD model was chosen for its superior performance in building the recommendation system. User ratings were effectively incorporated to personalize suggestions, and the system successfully adapts to changing user preferences.
+The SVD model was chosen for its superior performance in building the recommendation system.<br> 
+User ratings were effectively incorporated to personalize suggestions, and the system successfully adapts to changing user preferences.
 
 ## Recommendations
 
-Web application: Develop a web application to enhance user interaction and increase accessibility to the collaborative filtering recommendation system.
+*Web application:* Develop a web application to enhance user interaction and increase accessibility to the collaborative filtering recommendation system.
 
-Explore Deep Learning Models: Consider exploring deep learning-based recommendation models, such as neural collaborative filtering (NCF) or recurrent neural networks (RNNs), to capture complex patterns and dependencies in user behavior.
+*Explore Deep Learning Models:* Consider exploring deep learning-based recommendation models, such as neural collaborative filtering (NCF) or recurrent neural networks (RNNs), to capture complex patterns and dependencies in user behavior.
 
 ## Next Steps
 
