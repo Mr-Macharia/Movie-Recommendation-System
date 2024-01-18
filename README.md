@@ -1,4 +1,4 @@
-# Movie Recommendation System Using Collaborative Filtering
+# Movie Recommendation System 
 
 ## Overview
 
